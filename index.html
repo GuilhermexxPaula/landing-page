@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">Senai</div>
+
+        <button class="menu-toggle" aria-label="abrir menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+
+
         <ul class="nav-links">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Conteúdo</a></li>
@@ -22,7 +33,7 @@
         <section class="hero">
             <div class="hero-texto">
                 <h1>Construa Interfaces Aprenda na Prática</h1>
-                <p>Explore  conceitos modernos de html , css e javascript
+                <p>Explore conceitos modernos de html , css e javascript
                     com exemplos Visuais e interativos.
                 </p>
                 <a href="https://wa.me/5524993193245" class="btn-cta">começar agora</a>
@@ -31,40 +42,166 @@
                 <img src="assets/hero-illustration.svg" alt="">
             </div>
         </section>
-        section class="conteudo">
+        <section class="conteudo">
             <h2>O que você vai aprender</h2>
             <div class="cards">
                 <div class="card">
                     <img src="assets/html-icon.svg" alt="">
                     <h3>HTML</h3>
-                    <p>Aprenda a estruturar páginas web com HTML, criando elementos e organizando conteúdo de forma semântica.</p>
+                    <p>Aprenda a estruturar páginas web com HTML, criando elementos e organizando conteúdo de forma
+                        semântica.</p>
                 </div>
                 <div class="card">
                     <h3>HTML</h3>
                     <p>
-                    Estruturação de páginas com semântica e boas práticas .
+                        Estruturação de páginas com semântica e boas práticas .
                     </p>
 
                 </div>
                 <div class="card">
                     <h3>CSS</h3>
                     <p>
-                    Estilização moderna com cores ,fontes e layouts responsivos .
+                        Estilização moderna com cores ,fontes e layouts responsivos .
                     </p>
 
 
+                </div>
+                <div class="card">
+                    <h3>JavaScript</h3>
+                    <p>
+                        Interatividade e dinamismo com manipulação do DOM e eventos.
+                    </p>
+                </div>
             </div>
-            div class="card">
-                <h3>JavaScript</h3>
-                <p>
-                Interatividade e dinamismo com manipulação do DOM e eventos.
-                </p>
-            </div>
-              </div>
-        
+
         </section>
+        <section class="depoimentos">
+    <h2>O que dizem nossos alunos</h2>
+
+    <div class="depoimentos-grid">
+
+        <div class="depoimento">
+            <img src="assets/aluno1.jpg" alt="Foto do aluno João">
+
+            <p>"Aprender frontend ficou muito mais fácil com esse projeto. Agora consigo criar minhas próprias páginas!"</p>
+
+            <span>João Pereira</span>
+        </div>
+
+        <div class="depoimento">
+            <img src="assets/aluno2.jpg" alt="Foto da aluna Maria">
+
+            <p>"As explicações são diretas e os exemplos me ajudaram a entender o que eu achava impossível."</p>
+
+            <span>Maria Oliveira</span>
+        </div>
+
+        <div class="depoimento">
+            <img src="assets/aluno3.png" alt="Foto da aluna Ana">
+
+            <p>"O projeto me deu confiança para montar meu portfólio e participar de processos seletivos."</p>
+
+            <span>Ana Costa</span>
+        </div>
+
+    </div>
+</section>
+<section class="exemplos">
+    <h2>Exemplos Práticos</h2>
+    <p class="exemplos-descricao">Veja alguns projetos criados com os conceitos aprendidos nas aulas.</p>
+
+    <div class="exemplos-grid">
+
+        <div class="exemplo-card">
+            <img src="assets/exemplo1.jpg" alt="Exemplo de página HTML">
+            <h3>Portfólio Pessoal</h3>
+            <p>Site de apresentação com HTML semântico e estilização com CSS moderno.</p>
+        </div>
+
+        <div class="exemplo-card">
+            <img src="assets/exemplo2.jpg" alt="Exemplo de cardápio digital">
+            <h3>Cardápio Digital</h3>
+            <p>Projeto interativo com botões e imagens simulando um site de lanchonete.</p>
+        </div>
+
+        <div class="exemplo-card">
+            <img src="assets/exemplo3.jpg" alt="Exemplo de conversor de moedas">
+            <h3>Conversor de Moedas</h3>
+            <p>Pequena aplicação com JavaScript para calcular conversões em tempo real.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="tutorial">
+
+    <h2>Como funciona o Aprendizado</h2>
+
+    <p class="tutorial-description">
+        Veja o passo a passo que você seguirá para dominar as tecnologias frontend.
+    </p>
+
+    <div class="tutorial-steps">
+
+        <div class="step">
+            <h3>
+                <span class="number">1</span>
+                Fundamentos de HTML
+            </h3>
+            <p>
+                Aprenda os conceitos básicos de HTML, CSS e JavaScript.
+            </p>
+        </div>
+
+        <div class="step">
+            <h3>
+                <span class="number">2       </span>
+                Estilização com CSS
+            </h3>
+            <p>
+                Crie layouts modernos com cores, fontes e espaçamento.
+            </p>
+        </div>
+
+        <div class="step">
+            <h3>
+                <span class="number">3     </span>
+                Interatividade com JavaScript
+            </h3>
+            <p>
+                Adicione vida à sua página com eventos, manipulação do DOM e lógica de programação.
+            </p>
+        </div>
+
+        <div class="step">
+            <h3>
+                <span class="number">4          </span>
+                Projeto final
+            </h3>
+            <p>
+                Coloque tudo em prática desenvolvendo um site completo e visualmente atraente.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+   
     </main>
 
-    
+    <script>
+        const toggle=document.querySelector(".menu-toggle");
+        const navLinks=document.querySelector(".nav-links");
+
+        toggle.addEventListener("click",()=>{
+            toggle.classList.toggle("show");
+        })
+    </script>
+
+
 </body>
+
 </html>
